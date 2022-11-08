@@ -16,6 +16,7 @@ PixelColor::~PixelColor()
 
 }
 
+
 int PixelColor::roundValues(QVector <QColor>* pixels)
 {
     int round = 0;
