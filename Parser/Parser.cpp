@@ -25,6 +25,7 @@ Parser::Parser(QWidget *parent)
 
 void Parser::ButOn()
 {
+    int test = 1;
     image->load(QFileDialog::getOpenFileName(0, "Directory Save", ""));
 
     if (image->isNull())
